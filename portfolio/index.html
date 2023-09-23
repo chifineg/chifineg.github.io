@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chidinma Okafor's - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Chidinma Okafor</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>I am a self taught software Engineer, with several years of experience in website development, mobile and
+            desktop app development.
+            <br>
+            I am passionate about the ever-evolving world of technology, and I'm a dedicated tech enthusiast with a
+            knack for solving complex problems and staying ahead of the digital curve. <br><br>
+            <img src="chidinma.png" alt="Chidinma">
+            <br><br>With a strong foundation in
+            programming, a thirst for knowledge, and a creative approach to innovation, I thrive in the fast-paced
+            landscape of the tech industry. <br>Whether it's developing cuttin-edge software, exploring the limitless
+            possibilities or artificial inteligence, or simply unraveling the mysteries of the latest gadgets, I'm
+            driven by the belief that technology has the power to shape a brighter, more connected future for us all!
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="temConverter.png" alt="Project 1">
+            <h3>Temperature Converter</h3>
+            <p>This is a simple web based temperature converter, that converts from celsuis to fahrenheit and vise
+                versa, denpending on the chosen unit to convert. It is a simple web application based off of HTML, CSS
+                and JavaScript.</p>
+        </div>
+        <div class="project">
+            <img src="tacoShop.png" alt="Project 2">
+            <h3>Taco Shop Website</h3>
+            <p>This is a multiple pages website for a local taco shop. The website contains pages to the restaurants
+                home page, daily work hours, menus and contact information, as well as a brief history of how the
+                restaurant started. It is a simple website based off of HTML and CSS. </p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <h3>I'd love to hear from you</h3>
+        <form action="https://mailto:chifineg@yahoo.com/post" method="post">
+            <fieldset>
+                <legend>Send Us a Message</legend>
+                <p>
+                    <label for=" fname">Name</label>
+                    <input type="text" name="fname" id="fname" required placeholder="enter your name">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="enter your email">
+                </p>
+                <p>
+                    <strong>Your Message</strong> <br>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="enter your message here"></textarea>
+                </p>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+        <p>
+            You can also reach me on any of the following channels:
+
+        <ul>
+            <li><a href="https://facebook.com/chifineg">Facebook</a></li>
+            <li><a href="https://twitter.com/chifine_g">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/chifineg">LinkedIn</a></li>
+        </ul>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Chidinma Okafor</p>
+    </footer>
+</body>
+
+</html>
